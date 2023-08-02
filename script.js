@@ -42,3 +42,12 @@ setInterval(updateTime, 1000);
 
 //call updateTime function on page load
 updateTime();
+
+function playAudio() {
+  var audio = document.getElementById("myAudio");
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+}

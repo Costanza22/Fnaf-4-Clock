@@ -18,6 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   background-image: url('fnaf\ 4\ gold.png');
+  
 }
 body.dark {
   --primary-color: #242526;
